@@ -5,8 +5,8 @@
   "description": "wiki",
   "main": "run-server.js",
   "engines": {
-    "node": "6.x",
-    "npm": "3.x"
+    "node": "^22.23.4",
+    "npm": ">=10"
   },
   "scripts": {
     "postinstall": "npm run build",
